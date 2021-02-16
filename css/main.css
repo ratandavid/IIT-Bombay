@@ -1,0 +1,56 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+#Logo{
+    width: 5%;
+
+}
+.lines {
+    color:white!important;
+    font-size:150%;
+    
+}
+#brand-name{   
+    font-size: 36px;
+    color: #E5802A;
+    cursor: default;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif!important;
+}
+.header{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif!important;
+    color:#343A40;
+}
+.preview_course{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif!important;
+    color:#343A40;
+    text-align: center;
+}
+.upload{
+    font-size: 300%;
+    margin:2% 49%;
+    color:#E5802A;
+}
+.Description{
+    color:#fff!important;
+    background:#E5802A!important;
+    margin-top:20px;
+    border-radius: 5px!important;
+    
+}
+.Resources{
+    
+    color:#fff!important;
+    background:#E5802A!important;
+    margin-top:20px;
+    border-radius: 5px!important;
+    
+}
+.Save{
+    
+    color:#fff!important;
+    background:#E5802A!important;
+    margin-top:20px;
+    border-radius: 5px!important;
+    
+}
