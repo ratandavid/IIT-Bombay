@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>IIT Bombay</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="../css/main.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+  
+</head>  
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <label for="menu_btn" class="btn_toggler">
+        <i class="fas fa-bars lines"></i>
+      </label>
+      <img id="Logo" src="../img/logo_img.png"/>
+      <ul class="navbar-nav" style="width:100%">
+        <li class="nav-item active">
+          <h4 id="brand-name">Lokavidya</h4>
+        </li>
+        <li style="margin: 0 auto">
+          <div class="form-group search" style="width:150%" >
+            <div class="input-group" style="width:auto;">
+              <span class="input-group-prepend" style="width:100%;">
+                <div class="input-group qInput" style="background-color: #ffffff; border-style: none; border-radius: 5px;">
+              <span style="color:#E5802A; align-self: center; padding-left: 10px;" class="fa fa-search"></span>
+              <input class="form-control py-2 px-4 border-left-0  qbox" type="search" 
+              style="background-color: #ffffff; color:#E5802A; border-style: none;" placeholder="Search" id="example-search-input" />
+                </div>
+              </span>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i style="font-size: 150%;" class="fas fa-envelope"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i style="font-size: 150%;" class="fas fa-user-circle"></i></a>
+        </li>
+      </ul>
+    </nav>
+  
+
+  <div class="container-fluid">
+    
+        <div class="row">
+            <div class="col-xl-12" style="padding:20px;">
+                <h5 class="header"><b>Title entered earlier</b></h5>
+                <h6 class="header"><b>By XYZ </b></h6>
+            </div>            
+        </div>    
+        
+  </div>
+  <div class="container-fluid">
+    
+      <div class="row">
+        
+        <div class="col-xl-3 col-xs-3" style="margin-top: 2%;">
+            <div class="card-group">
+              <div class="card">
+                <div class="card-header text-center"  style="background-color: #E5802A; color:white;" >
+                  <b>Filter</b>
+                </div>  
+                <div class="card-body">
+                  <div>
+                    <div class="accordion" id="accordion-filter-plan">
+                      <div class="card" style="border-style:double;">
+                        <div class="card-header py-1" style=" background-color:white ;" id="Plan Your course">
+    
+                          <div class="card-title">
+                            <a class="btn btn-link btn-block text-left" style="color: #E5802A;" type="button" onclick="iconChanger('plan-i')" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                              <b>Plan Your course</b>
+                            </a>
+                          </div>
+                        </div>  
+                        <div id="collapseOne" class="collapse py-0" aria-labelledby="Plan Your course" data-parent="#accordion-filter-plan">
+                          <div class="card-body">
+                            <input type="radio" name="Plan Your course" ><span class="ml-2">24 hours</span><br>
+                            <input type="radio" name="Plan Your course" ><span class="ml-2">5 days</span><br>
+                            <input type="radio" name="Plan Your course" ><span class="ml-2">7 days</span><br>
+                            <input type="radio" name="Plan Your course" ><span class="ml-2">24 days</span><br>
+                            <input type="radio" name="Plan Your course" ><span class="ml-2">30 days</span><br>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion" id="accordion-filter-create">
+    
+                      <div class="card" style="border-style:double; ">
+                        <div class="card-header py-1" style=" background-color:white ;" id="Create Your Content">
+                          
+                          <div class="card-title">
+                            <a class="btn btn-link btn-block text-left" style="color: #E5802A;" type="button" onclick="iconChanger('create-i')" data-toggle="collapse" data-target="#collapsejob" aria-expanded="false" aria-controls="collapsejob">
+                              <b>Create Your Content</b> 
+                            </a>
+                          </div>
+                        </div>  
+                        <div id="collapsejob" class="collapse py-0" aria-labelledby="Create Your Content" data-parent="#accordion-filter-create">
+                          <div class="card-body">
+                            
+                            <ul class="navbar-nav side_nav">
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Preview Video</a>
+                              </li>
+    
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Curiculum</a>
+                              </li>
+    
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Homework</a>
+                              </li>
+  
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+    
+                    </div>
+                    <div class="accordion" id="accordion-filter-categories">
+    
+                      <div class="card" style="border-style:double; ">
+                        <div class="card-header py-1" style=" background-color:white ;" id="categories">
+                          
+                          <div class="card-title">
+                            <a class="btn btn-link btn-block text-left" style="color: #E5802A;" type="button" onclick="iconChanger('categories-i')" data-toggle="collapse" data-target="#collapsecategories" aria-expanded="false" aria-controls="collapsecategories">
+                              <b>Categories</b> 
+                            </a>
+                          </div>
+                        </div>  
+                        <div id="collapsecategories" class="collapse py-0" aria-labelledby="categories" data-parent="#accordion-filter-categories">
+                          <div class="card-body">
+                             
+                            <ul class="navbar-nav side_nav">
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Course Detail</a>
+                              </li>
+    
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Communications</a>
+                              </li>
+    
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Publish</a>
+                              </li>
+  
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+    
+                    </div>
+                  </div>  
+              </div>  
+            </div>
+          </div>   
+        </div>
+  
+        
+        <div class="col-xl-9 col-xs-9 " style="margin-top: 2%; border-radius:12px; ">
+          <div class="container">
+           <div class="row">              
+                <div class="col-xl-3">
+                  <button type="button" class="btn Goback" value="Save"><b>Go Back</b></button>
+                </div>
+                <div class="col-xl-6">
+                  <h2 class="create">Create Homework</h2>
+                </div>
+                <div class="container form"  >
+                  <form action=""  method="POST">
+                    <div class="form-group row">
+                      <label for="Title" class="col-xl-2 col-form-label"><b>Title</b></label>
+                      <div class="col-xl-10">
+                        <input style="width:50%; margin-left: 20px;" type="text" name="Title" placeholder="" class="form-control" required>
+                      </div>
+                    </div>
+
+                    <div class="form-group row">
+                       <label for="Description" class="col-xl-2 col-form-label"><b>Description</b></label>
+                      <div class="col-xl-10">
+                        <textarea style="width:50%; margin-left: 20px;" type="text" name="Description" placeholder="" class="form-control" required></textarea>
+                      </div>
+                    </div>
+
+                    <div class="form-group row">
+                      <label for="attachfile" class="col-xl-2 col-form-label"><b>Attach File</b></label>
+                      <div class="col-xl-6" style="max-width: 10%; margin-left: 20px;">
+                        <div class="upload-btn-wrapper" style="position: relative;">
+                          <div class="" style="background-color: white;border: none;">
+                          <i class="fas fa-upload" style="width: 32px;font-size: 30px;color:#E5802A;"></i>
+                        </div>
+                        <input type="file" name="myfile" style="left: 0;top: 0;position: absolute;opacity: 0;font-size: 16px;width: 32px;">
+                        </div>
+                      </div>
+                      <div class="custom-control custom-radio custom-control-inline">
+                          <input type="radio" id="maxmarks" name="marks" class="custom-control-input">
+                          <label class="custom-control-label" for="maxmarks">Max Marks</label>
+                      </div>
+                      <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="grade" name="marks" class="custom-control-input">
+                        <label class="custom-control-label" for="grade">Grade</label>
+                    </div>
+                    </div>
+                    <div class="form-group row date ">
+                      <label for="Date" class="col-xl-2 col-form-label"><b>Deadline</b></label>
+                     <div class="col-xl-2">
+                       <input style="width:100%;" type="date" name="deadline" class="form-control" required>
+                     </div>
+                     <div class="col-xl-2">
+                      <input style="width:100%;" type="time" name="Time"  class="form-control" required>
+                    </div>
+                    
+                    <div class="col-xl-2 ok_button">
+                      <input style="width:100%;" type="submit" value="OK"  class="form-control" required>
+                    </div>
+                    </div>
+                      
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  </div>
+ 
+</div>                          
+            
+
+  
+    
+</body>
+</html>    

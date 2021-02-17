@@ -26,6 +26,11 @@
     color:#343A40;
     text-align: center;
 }
+.create{
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif!important;
+    color:#343A40;
+}
 .upload{
     font-size: 300%;
     margin:2% 49%;
@@ -53,4 +58,98 @@
     margin-top:20px;
     border-radius: 5px!important;
     
+}
+.Goback{
+    color:#fff!important;
+    background:#E5802A!important;
+    border-radius: 5px!important;
+}
+.form{
+    margin-top:4%;
+
+}
+.form form{
+    padding-left:1%;
+}
+.ok_button input[type=submit]{
+   width: 60%!important;
+   margin-left:75%;
+   background-color:#E5802A ;
+   color:#fff;
+   font-weight: bold;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif!important; 
+}
+.goback{
+    color:#fff!important;
+    background:#E5802A!important;
+    border-radius: 5px!important;
+    margin:5%!important;
+}
+.my_navbar a{
+    color:#343A40!important;
+    background-color: transparent;
+    margin:0 10px ;
+}
+
+.my_navbar a:hover{
+    color:#fff!important;
+    background-color: #E5802A!important;
+    border-radius:5px;
+}
+
+.homework{
+    margin-top: 1%;
+}
+
+.active a {
+    color: #fff!important;
+    background-color:#E5802A!important;
+    border-radius:5px;
+}
+.my_nav a{
+    color:#343A40!important;
+    background-color: transparent;
+    margin:0 10px ;
+} 
+
+.my_nav a:hover{
+    color:#E5802A!important;
+    background-color: transparent;
+    margin:0 10px ;
+} 
+
+
+
+.activeone a{
+    color:#E5802A!important;
+}
+
+.homework h4{
+    color:#343A40!important;
+}
+.Submit_form{
+    margin-top:2%;
+    border: 2px solid #E5802A;
+    padding: 10px;
+    border-radius: 25px;
+}
+.date p{
+    margin-left:20px;
+    margin-top:6px;
+    color:#343A40;
+}
+
+.Grade_form{
+    margin-top:2%;
+    border: 2px solid #E5802A;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.side_nav a{
+    color:#343A40;
+
+}
+.side_nav a:hover{
+    color:#E5802A;
 }
