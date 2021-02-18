@@ -300,6 +300,9 @@ hr{
         margin-top: 2%!important;
     }
 
+    .ok_button{
+        width:50%!important;
+    }
 }
 
 
@@ -350,4 +353,11 @@ hr{
     .Free_course{
         margin-top: 2%!important;
     }   
+    
+    
+
+    .ok_button{
+        width:50%!important;
+    }
+
 }
