@@ -15,7 +15,7 @@ function navBar()
               <span class="input-group-prepend" style="width:100%;">\
                 <div class="input-group qInput" style="background-color: #ffffff; border-style: none; border-radius: 5px;">\
               <span style="color:#E5802A; align-self: center; padding-left: 10px;" class="fa fa-search"></span>\
-              <input class="form-control py-2 px-4 border-left-0  qbox" type="search" \
+              <input class="form-control py-2 px-4 border-left-0" type="search" \
               style="background-color: #ffffff; color:#E5802A; border-style: none;" placeholder="Search" id="example-search-input" />\
                 </div>\
               </span>\
@@ -23,10 +23,10 @@ function navBar()
           </div>\
         </li>\
         <li class="nav-item">\
-          <a class="nav-link" href="#"><i style="font-size: 150%;" class="fas fa-envelope"></i></a>\
+          <a class="nav-link envelope" href="#"><i style="font-size: 150%;" class="fas fa-envelope "></i></a>\
         </li>\
         <li class="nav-item">\
-          <a class="nav-link" href="#"><i style="font-size: 150%;" class="fas fa-user-circle"></i></a>\
+          <a class="nav-link user-circle" href="#"><i style="font-size: 150%;" class="fas fa-user-circle "></i></a>\
         </li>\
       </ul>\
     </nav>'

@@ -3,6 +3,12 @@
     margin:0px;
     
 }
+.envelope:hover{
+    color:#E5802A!important;
+}
+.user-circle:hover{
+    color: #E5802A!important;
+}
 #Logo{
     width: 5%;
 
@@ -197,7 +203,6 @@
 .Requirment h6  {
     color:#E5802A;
 }
-
 
 .Requirment p  {
     color:#343A40;
