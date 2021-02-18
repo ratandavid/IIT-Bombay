@@ -1,6 +1,7 @@
 *{
     padding:0px;
     margin:0px;
+    
 }
 #Logo{
     width: 5%;
@@ -59,11 +60,27 @@
     border-radius: 5px!important;
     
 }
+.Photography{
+    color:#fff!important;
+    background:#E5802A!important;
+    border-radius: 5px!important;
+    width: 100%;
+}
+.Free_course{
+    width: 100%;
+    color:#E5802A!important;
+    background:#343A40!important;
+    border-radius: 5px!important;
+}
 .Goback{
     color:#fff!important;
     background:#E5802A!important;
     border-radius: 5px!important;
 }
+.checked {
+    color: #E5802A;
+  }
+
 .form{
     margin-top:4%;
 
@@ -152,4 +169,72 @@
 }
 .side_nav a:hover{
     color:#E5802A;
+}
+.Course-description{
+    margin-top:1%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif!important; 
+}
+.cour_description{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif!important;
+}
+.cour_description h5{
+    color:#343A40;
+    font-weight: bold;
+}
+.cour_description h6{
+    color:#E5802A;
+}
+
+.cour_description p{
+    color:#343A40;
+}
+.Buy_course{
+    margin-top:1%;
+}
+.Requirment{
+    margin-top:1%;
+}
+.Requirment h6  {
+    color:#E5802A;
+}
+
+
+.Requirment p  {
+    color:#343A40;
+}
+.Course-curriculam{
+    margin-top:1%;
+}
+
+
+.Course-curriculam h6{
+    color:#E5802A;
+}
+
+
+.Course-curriculam p{
+    color:#343A40;
+}
+.photoshop{
+    width:100%;
+}
+h1{
+    color: #343A40;
+}
+hr{
+    border:1px solid #E5802A!important;
+}
+.View-Similar-Courses{
+    margin-top:10%;
+    width: 100%;
+    color:#fff!important;
+    background:#E5802A!important;
+    border-radius: 5px!important;
+}
+.Start_Course{
+    margin-top:10%;
+    width: 100%;
+    color:#E5802A!important;
+    background:#343A40 !important;
+    border-radius: 5px!important;
 }
